@@ -1,0 +1,1955 @@
+{
+  "id": "ce08a868-ed85-4d72-bbc5-86d1c6637636",
+  "version": "2.0",
+  "name": "form",
+  "url": "https://ryder.com",
+  "tests": [{
+    "id": "3a1b2f85-0b06-458d-8911-349469b878a8",
+    "name": "PS-UVS-US-001",
+    "commands": [{
+      "id": "c74ad350-17b8-45a6-b691-4f3c4443081a",
+      "comment": "2021 UVS Paid Search Brand NO PMT 59 days AH GoogleBing LeadGen",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1ed07d2-a8f8-49a0-80d5-e86fa5223e38",
+      "comment": "",
+      "command": "open",
+      "target": "https://ryder.com/used-trucks?source=psearch&sfid=7010d000000xstAAAQ&utm_source=google&utm_medium=cpc&utm_campaign=2021_UVS_Paid_Search_Brand_NO_PMT_59_days_AH_GoogleBing_LeadGen&utm_content=usedtrucks&utm_term=C",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c682e05-4970-4d0c-bb66-8afa54c4bd61",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@name='keyword'])[2]",
+      "targets": [
+        ["css=.focus-visible", "css:finder"],
+        ["xpath=(//input[@name='keyword'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='search-module']/div/div[2]/div/form/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "big truck for testing"
+    }, {
+      "id": "c7389b0e-a3c8-43c7-8b54-355620d7f182",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-box-button",
+      "targets": [
+        ["css=.search-box-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='search-module']/div/div[2]/div/form/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'FIND VEHICLES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e315f82-e43a-4aaf-93e4-93f08cac0250",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,368)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcdb9cc2-911f-4af8-aaff-7694b0ad5058",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(1) img",
+      "targets": [
+        ["css=.col-lg-4:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='image1']", "xpath:img"],
+        ["xpath=//div[@id='SearchPageProductList']/div/ul/li/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f04247c-27f6-4413-a37d-a9bbca6debfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_get_started",
+      "targets": [
+        ["css=.btn_get_started", "css:finder"],
+        ["xpath=//div[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div[2]/div[3]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a76dbbe-3c89-4a51-a0aa-a02446dd9882",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[b2e8e608-8259-4316-958c-13ee7030029b].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16a3cf1f-96fd-48e7-8d01-b49c94e4aaab",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[b2e8e608-8259-4316-958c-13ee7030029b].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "a664e703-0b3c-4a50-8774-b04532b69f47",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[03db2bb2-dd4d-42f1-900d-9ea18ffe55f6].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "105bd42e-2979-4ab6-98d2-ac9b8141df29",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[03db2bb2-dd4d-42f1-900d-9ea18ffe55f6].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[3]", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "a92a3afe-8886-404f-9995-2b509c335076",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[f3a2c72a-3a79-439e-909d-a190cd5ce28c].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb599d0e-70ba-4cfa-a170-df151eecde55",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[f3a2c72a-3a79-439e-909d-a190cd5ce28c].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[3]", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "3caf1bb6-6c6a-4c67-babd-805bfe252512",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[76392b59-0454-48fe-afd8-3639fb81c014].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[4]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69bd7d63-9fc6-4fa5-a85d-91610a718856",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[76392b59-0454-48fe-afd8-3639fb81c014].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[4]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/input[3]", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "da330bca-e91d-463a-bbc2-e66a4e5065d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[ed2a4a59-46f1-4d28-9e1e-5294bbb28627].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[5]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77fa74af-13c9-471a-8bb5-ecacce62c534",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return new Date().getTime();",
+      "targets": [],
+      "value": "ndAte"
+    }, {
+      "id": "eea93d9c-bda8-4bcf-9419-74a8d458868e",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[ed2a4a59-46f1-4d28-9e1e-5294bbb28627].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[5]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/input[3]", "xpath:position"]
+      ],
+      "value": "0000.ps-uvs-us-001-${ndAte}.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "5e06d512-363a-4724-b7fd-ac32dfb788ad",
+      "comment": "",
+      "command": "echo",
+      "target": "EMAIL ENTERD: ${ndAte}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4117a776-85ca-420e-af1e-8ef4de5f9815",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[76bd0b06-3525-491c-8c14-c6f24ea45f7a].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[6]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17b25147-5a27-4eaf-a763-84477367d7dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[76bd0b06-3525-491c-8c14-c6f24ea45f7a].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[6]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/input[3]", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "d826762f-5d3d-4042-a66e-b00a1f6ffbe5",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[abf1dc83-346c-4b79-96eb-fe748ff3f187].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[7]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[7]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "408c9a60-de8e-46b9-9602-38538814815a",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[abf1dc83-346c-4b79-96eb-fe748ff3f187].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[7]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[7]/input[3]", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "8d1528f4-638d-44eb-a63a-6a3b33ce1f67",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_d861b38f-21c8-452c-bd07-4d75f95a68d0__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_d861b38f-21c8-452c-bd07-4d75f95a68d0__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[d861b38f-21c8-452c-bd07-4d75f95a68d0].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_d861b38f-21c8-452c-bd07-4d75f95a68d0__Value", "css:finder"],
+        ["xpath=//select[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_d861b38f-21c8-452c-bd07-4d75f95a68d0__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[8]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1785882b-bdc5-4d9d-9efe-8e4e3df2fdd0",
+      "comment": "",
+      "command": "select",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_d861b38f-21c8-452c-bd07-4d75f95a68d0__Value",
+      "targets": [],
+      "value": "label=Ready Now"
+    }, {
+      "id": "0da3574f-c09d-457e-b213-4d9ff6ae25c2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return new Date().toLocaleString();",
+      "targets": [],
+      "value": "daDate"
+    }, {
+      "id": "a06da33c-cad7-4c69-98f9-5f800208d61f",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[a2899e56-dc9c-41df-820e-c883d8a42d69].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value", "css:finder"],
+        ["xpath=//textarea[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[9]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Brian Savage testing Use Case PS-UVS-US-001 on ${daDate}"
+    }, {
+      "id": "da5153f8-6d5e-4ac6-9b66-4a5d61876b14",
+      "comment": "",
+      "command": "click",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[a2899e56-dc9c-41df-820e-c883d8a42d69].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value", "css:finder"],
+        ["xpath=//textarea[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[9]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ca10044-9e06-4a17-8754-575ec175e9a1",
+      "comment": "",
+      "command": "echo",
+      "target": "This should be validated in Salesforce and Eloqua (data first sent to Salesforce) <br> The transaction between Salesforce and Eloqua is a batch process - not an API call",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2c4b16b-c1fa-4cdb-8807-fd19a43a0f8a",
+      "comment": "Open Eloqua",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#my_eloqua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0446e71e-dac6-4e3f-9f81-c485c604149c",
+      "comment": "",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#forms&id=1843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5db5653a-9167-4b18-8606-86815ae1ff75",
+      "comment": "Open Salesforce",
+      "command": "executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/r/7010d000000xstAAAQ/related/CampaignMembers/view\");",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e593b23-68c5-4ae1-b80b-e1a28e139b5d",
+      "comment": "Open Salesforce",
+      "command": "//executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/page/home\");",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b354d7e-ae6c-4e2c-9099-5a9a44eaee58",
+      "comment": "Open Salesforce",
+      "command": "//executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/r/Campaign/7010d000000xstAAAQ/view\");",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "df11a6e6-a0ae-4739-8b79-2dddaf1a41be",
+    "name": "PS-UVS-US-002",
+    "commands": [{
+      "id": "3aca2b6b-1e63-4869-9e2b-ece5fa2873ea",
+      "comment": "",
+      "command": "open",
+      "target": "https://campaigns.ryder.com/UVS-Promo-59Day?source=psearch&sfid=7010d000000xstAAAQ&utm_source=google&utm_medium=cpc&utm_campaign=2021_UVS_Paid_Search_Brand_NO_PMT_59_days_AH_GoogleBing_LeadGen&utm_content=usedtrucks&utm_term=C",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c36974f5-903f-4db3-b51f-75ff902b9df7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='HeroBtn']/span",
+      "targets": [
+        ["css=.lp-hide:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='HeroBtn']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58ede8eb-651c-4057-821f-c23888953042",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27450",
+      "targets": [
+        ["id=fe27450", "id"],
+        ["name=firstName", "name"],
+        ["css=#fe27450", "css:finder"],
+        ["xpath=//input[@id='fe27450']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement0']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "1e453d2e-032f-4508-8736-da687548bb8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27451",
+      "targets": [
+        ["id=fe27451", "id"],
+        ["name=lastName", "name"],
+        ["css=#fe27451", "css:finder"],
+        ["xpath=//input[@id='fe27451']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement1']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "2500484f-033e-4568-b459-8a2f7ec14dfe",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27452",
+      "targets": [
+        ["id=fe27452", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#fe27452", "css:finder"],
+        ["xpath=//input[@id='fe27452']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement2']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "0000.ps-uvs-us-002-step-001.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "ba06b67f-309f-4e4f-92d7-920cbc8c47ea",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27469",
+      "targets": [
+        ["id=fe27469", "id"],
+        ["name=company", "name"],
+        ["css=#fe27469", "css:finder"],
+        ["xpath=//input[@id='fe27469']", "xpath:attributes"],
+        ["xpath=(//div[@id='formElement0']/div[2]/div/div/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "e6fcaa69-28ec-4caa-beb4-78fb19d9293b",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27559",
+      "targets": [
+        ["id=fe27559", "id"],
+        ["name=title", "name"],
+        ["css=#fe27559", "css:finder"],
+        ["xpath=//input[@id='fe27559']", "xpath:attributes"],
+        ["xpath=(//div[@id='formElement1']/div[2]/div/div/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "0e994880-4ac8-4eea-8ac4-4bc7997dad86",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27555",
+      "targets": [
+        ["id=fe27555", "id"],
+        ["name=busPhone", "name"],
+        ["css=#fe27555", "css:finder"],
+        ["xpath=//input[@id='fe27555']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement4']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "da4cb5ba-58de-4b5e-8acd-d9d3aa9e49b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=formElement5",
+      "targets": [
+        ["id=formElement5", "id"],
+        ["css=#formElement5", "css:finder"],
+        ["xpath=//div[@id='formElement5']", "xpath:attributes"],
+        ["xpath=//form[@id='form1843']/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "cdb8557f-b7ee-430d-aef0-b139f9889e20",
+      "comment": "",
+      "command": "select",
+      "target": "id=fe27552",
+      "targets": [
+        ["id=fe27552", "id"],
+        ["name=DecisionTime", "name"],
+        ["css=#fe27552", "css:finder"],
+        ["xpath=//select[@id='fe27552']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement11']/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "label=Ready Now"
+    }, {
+      "id": "2458b5e5-c704-4f9e-8a2f-34a47eac39fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27468",
+      "targets": [
+        ["id=fe27468", "id"],
+        ["css=#fe27468", "css:finder"],
+        ["xpath=//input[@id='fe27468']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement12']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb151672-c05d-4908-be74-0d2ee6fd7332",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Array.from(document.querySelectorAll('a[target=\"_blank\"]')).forEach(link => link.removeAttribute('target'));",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb5ff37a-f133-4d1a-aef6-3fb509225f4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View All Semi Trucks For Sale",
+      "targets": [
+        ["linkText=View All Semi Trucks For Sale", "linkText"],
+        ["css=.col-0 > .cell-3 a", "css:finder"],
+        ["xpath=//a[contains(text(),'View All Semi Trucks For Sale')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://app.campaigns.ryder.com/e/er?s=651376838&lid=5851&elqTrackId=346122E94D1D21A92138CFE0F762193C&elq=00000000000000000000000000000000&elqaid=2450&elqat=2&_ga=2.252881097.1589798588.1641203851-1438118034.1641203851')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View All Semi Trucks For Sale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "718c3777-56de-4ecf-bb4f-72ced8e66aab",
+      "comment": "",
+      "command": "click",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//div[@id='wrapper']/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6a315c1-3ddf-42d0-9bd7-f2965882c8cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(1) .new-inventory",
+      "targets": [
+        ["css=.col-lg-4:nth-child(1) .new-inventory", "css:finder"],
+        ["xpath=//div[@id='SearchPageProductList']/div/ul/li/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/li/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b130d58e-3f9e-410b-bcfb-bcaf6ffa481c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(1) .title",
+      "targets": [
+        ["css=.col-lg-4:nth-child(1) .title", "css:finder"],
+        ["xpath=//div[@id='SearchPageProductList']/div/ul/li/div[2]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b434370e-d4c2-4a66-978e-6e3a99682676",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn_get_started",
+      "targets": [
+        ["css=.btn_get_started", "css:finder"],
+        ["xpath=//div[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div[3]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a30b9544-6fde-46e6-88e5-50b66b6559ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_get_started",
+      "targets": [
+        ["css=.btn_get_started", "css:finder"],
+        ["xpath=//div[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div[3]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07d09a21-daff-4ca6-93b3-09d713310c0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[b2e8e608-8259-4316-958c-13ee7030029b].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "9faa384c-7088-4a79-a0ca-251f80d6663a",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[03db2bb2-dd4d-42f1-900d-9ea18ffe55f6].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[3]", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "54437744-16d7-4a2d-92e4-91f16dad4d2c",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[f3a2c72a-3a79-439e-909d-a190cd5ce28c].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[3]", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "6bcb7a78-0d59-4280-92cd-65f43f4fb0c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[76392b59-0454-48fe-afd8-3639fb81c014].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[4]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/input[3]", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "80cd91bc-94db-4c00-8523-06e84d473a56",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[ed2a4a59-46f1-4d28-9e1e-5294bbb28627].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[5]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/input[3]", "xpath:position"]
+      ],
+      "value": "0000.ps-uvs-us-002-step-002.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "30a0a1e1-586b-489a-8ff0-875e8bb988b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[76bd0b06-3525-491c-8c14-c6f24ea45f7a].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[6]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/input[3]", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "f16dd1ab-a0da-4ae6-a09b-a939cbd44238",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[abf1dc83-346c-4b79-96eb-fe748ff3f187].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[7]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[7]/input[3]", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "a5498770-1c3d-45a5-a58b-8cc3a30c6961",
+      "comment": "",
+      "command": "select",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_d861b38f-21c8-452c-bd07-4d75f95a68d0__Value",
+      "targets": [],
+      "value": "label=Ready Now"
+    }, {
+      "id": "fcab4e53-6c90-4bf3-8734-701f2cef570f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return new Date().toLocaleString();",
+      "targets": [],
+      "value": "daDate"
+    }, {
+      "id": "4737eb8f-898e-4262-8eda-bc746283d5b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[a2899e56-dc9c-41df-820e-c883d8a42d69].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value", "css:finder"],
+        ["xpath=//textarea[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[9]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Brian Savage testing Use Case PS-UVS-US-002 on ${daDate}"
+    }, {
+      "id": "eb66717d-2b51-482c-b836-6002881f69ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.f8bd5c83-b534-44a5-b479-b6f8b817914c",
+      "targets": [
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.f8bd5c83-b534-44a5-b479-b6f8b817914c", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='fxb.a256c601-9efd-41ee-a361-54bda8b29b18.f8bd5c83-b534-44a5-b479-b6f8b817914c']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d6f852-3edf-4f38-90a9-fc1e5204d7be",
+      "comment": "Open Eloqua",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#my_eloqua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a70de79b-6f72-4afd-baf8-5286e56d8243",
+      "comment": " Open Eloqua 2021_US_ELQ_UVS_RTL_Form (1843)",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#forms&id=1843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31049ad8-e046-4f18-9c28-203ec4cba77c",
+      "comment": "Open Salesforce",
+      "command": "executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/page/home\");",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "179addb9-6068-4171-8755-0c4bb8b947b6",
+    "name": "PS-UVS-US-003",
+    "commands": [{
+      "id": "a722dde7-1a4f-4250-9422-d7109e3a2aa1",
+      "comment": "",
+      "command": "open",
+      "target": "https://campaigns.ryder.com/UVS-Promo-59Day?source=psearch&sfid=7010d000000xstAAAQ&utm_source=google&utm_medium=cpc&utm_campaign=2021_UVS_Paid_Search_Brand_NO_PMT_59_days_AH_GoogleBing_LeadGen&utm_content=usedtrucks&utm_term=C",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13750897-b74c-453a-9f05-66a49f495044",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='HeroBtn']/span",
+      "targets": [
+        ["css=.lp-hide:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='HeroBtn']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f33f24f-53d0-48b7-949f-6ee177ef4cec",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27450",
+      "targets": [
+        ["id=fe27450", "id"],
+        ["name=firstName", "name"],
+        ["css=#fe27450", "css:finder"],
+        ["xpath=//input[@id='fe27450']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement0']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "6f4f0cd7-e246-4724-a104-559769ef7c41",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27451",
+      "targets": [
+        ["id=fe27451", "id"],
+        ["name=lastName", "name"],
+        ["css=#fe27451", "css:finder"],
+        ["xpath=//input[@id='fe27451']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement1']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "91895019-1f8e-4dfa-b715-aa6a935581cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27452",
+      "targets": [
+        ["id=fe27452", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#fe27452", "css:finder"],
+        ["xpath=//input[@id='fe27452']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement2']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "0000.ps-uvs-us-003-step-001.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "516ce952-4f65-4d9f-b2fc-0636df9347fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27469",
+      "targets": [
+        ["id=fe27469", "id"],
+        ["name=company", "name"],
+        ["css=#fe27469", "css:finder"],
+        ["xpath=//input[@id='fe27469']", "xpath:attributes"],
+        ["xpath=(//div[@id='formElement0']/div[2]/div/div/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "bcee808e-d7be-40e6-9ffa-d9bfbcef6579",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27559",
+      "targets": [
+        ["id=fe27559", "id"],
+        ["name=title", "name"],
+        ["css=#fe27559", "css:finder"],
+        ["xpath=//input[@id='fe27559']", "xpath:attributes"],
+        ["xpath=(//div[@id='formElement1']/div[2]/div/div/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "eb951f55-d2c4-40ba-bee7-ca1bddaab450",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27555",
+      "targets": [
+        ["id=fe27555", "id"],
+        ["name=busPhone", "name"],
+        ["css=#fe27555", "css:finder"],
+        ["xpath=//input[@id='fe27555']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement4']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "b43979a6-c55a-4a2c-816a-3b5c6541a662",
+      "comment": "",
+      "command": "type",
+      "target": "id=formElement5",
+      "targets": [
+        ["id=formElement5", "id"],
+        ["css=#formElement5", "css:finder"],
+        ["xpath=//div[@id='formElement5']", "xpath:attributes"],
+        ["xpath=//form[@id='form1843']/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "aad33e47-ccc8-42b8-9d72-f70cbbbdc4f7",
+      "comment": "",
+      "command": "select",
+      "target": "id=fe27552",
+      "targets": [
+        ["id=fe27552", "id"],
+        ["name=DecisionTime", "name"],
+        ["css=#fe27552", "css:finder"],
+        ["xpath=//select[@id='fe27552']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement11']/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "label=Ready Now"
+    }, {
+      "id": "47ec8edf-818a-4148-9426-c15ae377763b",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27468",
+      "targets": [
+        ["id=fe27468", "id"],
+        ["css=#fe27468", "css:finder"],
+        ["xpath=//input[@id='fe27468']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement12']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3942b27-3d39-4395-b39a-9e61244053f3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Array.from(document.querySelectorAll('a[target=\"_blank\"]')).forEach(link => link.removeAttribute('target'));",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37222567-782e-49ab-8955-636b3bd06429",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View All Semi Trucks For Sale",
+      "targets": [
+        ["linkText=View All Semi Trucks For Sale", "linkText"],
+        ["css=.col-0 > .cell-3 a", "css:finder"],
+        ["xpath=//a[contains(text(),'View All Semi Trucks For Sale')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://app.campaigns.ryder.com/e/er?s=651376838&lid=5851&elqTrackId=346122E94D1D21A92138CFE0F762193C&elq=00000000000000000000000000000000&elqaid=2450&elqat=2&_ga=2.252881097.1589798588.1641203851-1438118034.1641203851')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View All Semi Trucks For Sale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2c5a02b-4944-4c9e-8c13-9bdfafd42881",
+      "comment": "",
+      "command": "click",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//div[@id='wrapper']/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac79c53a-4041-4ca2-96a3-c71861cfaef6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(1) .new-inventory",
+      "targets": [
+        ["css=.col-lg-4:nth-child(1) .new-inventory", "css:finder"],
+        ["xpath=//div[@id='SearchPageProductList']/div/ul/li/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/li/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bef8ae8-a493-42b0-b8b2-7e4fd18d4240",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(1) .title",
+      "targets": [
+        ["css=.col-lg-4:nth-child(1) .title", "css:finder"],
+        ["xpath=//div[@id='SearchPageProductList']/div/ul/li/div[2]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9445d715-b04e-4f10-9bde-f509ee30bf7b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn_get_started",
+      "targets": [
+        ["css=.btn_get_started", "css:finder"],
+        ["xpath=//div[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div[3]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99fc37fc-3e98-4729-a239-768c3f6cfb7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_get_started",
+      "targets": [
+        ["css=.btn_get_started", "css:finder"],
+        ["xpath=//div[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div[3]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9dd249a-112e-49b9-b8c0-9f93a5bfedce",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[b2e8e608-8259-4316-958c-13ee7030029b].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_b2e8e608-8259-4316-958c-13ee7030029b__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "773ec482-589c-490f-826b-8a94229a6aa8",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[03db2bb2-dd4d-42f1-900d-9ea18ffe55f6].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_03db2bb2-dd4d-42f1-900d-9ea18ffe55f6__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[3]", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "34e3dc72-199b-4c54-b6ac-b3dc49c5825b",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[f3a2c72a-3a79-439e-909d-a190cd5ce28c].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_f3a2c72a-3a79-439e-909d-a190cd5ce28c__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[3]", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "56e1efb1-8487-43a5-8e04-c91fcd7e6203",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[76392b59-0454-48fe-afd8-3639fb81c014].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76392b59-0454-48fe-afd8-3639fb81c014__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[4]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/input[3]", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "d9ab068f-03ec-4f78-8ed6-9ba1b0061e49",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[ed2a4a59-46f1-4d28-9e1e-5294bbb28627].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_ed2a4a59-46f1-4d28-9e1e-5294bbb28627__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[5]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/input[3]", "xpath:position"]
+      ],
+      "value": "0000.ps-uvs-us-003-step-002.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "2e98dd81-a149-4147-9bc6-03082c29b9ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[76bd0b06-3525-491c-8c14-c6f24ea45f7a].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_76bd0b06-3525-491c-8c14-c6f24ea45f7a__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[6]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/input[3]", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "986ab4be-225e-4ad4-9713-0ae4c35ed707",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[abf1dc83-346c-4b79-96eb-fe748ff3f187].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value", "css:finder"],
+        ["xpath=//input[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_abf1dc83-346c-4b79-96eb-fe748ff3f187__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[7]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[7]/input[3]", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "2dc00929-198c-48be-9b3a-c0a33abb5e38",
+      "comment": "",
+      "command": "select",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_d861b38f-21c8-452c-bd07-4d75f95a68d0__Value",
+      "targets": [],
+      "value": "label=Ready Now"
+    }, {
+      "id": "eed4a90a-52e1-44bc-9558-a25a4a9e2ab6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return new Date().toLocaleString();",
+      "targets": [],
+      "value": "daDate"
+    }, {
+      "id": "6fedc956-bb2f-4ccf-bbdc-2550c0c52724",
+      "comment": "",
+      "command": "type",
+      "target": "id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value",
+      "targets": [
+        ["id=fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value", "id"],
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.Fields[a2899e56-dc9c-41df-820e-c883d8a42d69].Value", "name"],
+        ["css=#fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value", "css:finder"],
+        ["xpath=//textarea[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_Fields_a2899e56-dc9c-41df-820e-c883d8a42d69__Value']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[9]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Brian Savage testing Use Case PS-UVS-US-003 on ${daDate}"
+    }, {
+      "id": "cabce5fc-4440-41fc-bf7e-639c4d8db296",
+      "comment": "",
+      "command": "click",
+      "target": "name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.f8bd5c83-b534-44a5-b479-b6f8b817914c",
+      "targets": [
+        ["name=fxb.a256c601-9efd-41ee-a361-54bda8b29b18.f8bd5c83-b534-44a5-b479-b6f8b817914c", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='fxb.a256c601-9efd-41ee-a361-54bda8b29b18.f8bd5c83-b534-44a5-b479-b6f8b817914c']", "xpath:attributes"],
+        ["xpath=//form[@id='fxb_a256c601-9efd-41ee-a361-54bda8b29b18_240b0163-1d79-49d6-977c-5fae317445f3']/div/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "113e9df4-6b6b-4ede-8c02-f63db68f2033",
+      "comment": "Open Eloqua",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#my_eloqua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2d87e9a-aec7-408a-a97e-be01f14fab3f",
+      "comment": " Open Eloqua 2021_US_ELQ_UVS_RTL_Form (1843)",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#forms&id=1843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03b7e957-55f0-4ff9-9561-65f3be4d2605",
+      "comment": "Open Salesforce",
+      "command": "executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/page/home\");",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7d96c6c1-e96e-4a93-9bb7-796962b430f7",
+    "name": "PS-RYDER-US-SCS-001",
+    "commands": [{
+      "id": "0827450d-3528-4459-a6a3-d405254bb38e",
+      "comment": "",
+      "command": "open",
+      "target": "https://campaigns.ryder.com/SCS-ContactUs-Microsite?source=psearch&utm_source=google&utm_medium=cpc&utm_campaign=2021_SCS_Paid_Search_Non-Brand_Logistics_Ever_Better_AH_Google_LeadGen&utm_content=C&utm_term=ryderlogistics",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cca8542-0ee7-40b4-b6a3-dd1e7db6f5e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SCSButton-SpeaktoanExpert-Hero",
+      "targets": [
+        ["css=.SCSButton-SpeaktoanExpert-Hero", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1d8dd85-15e7-4fe9-87ac-6f9f440ecf58",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27658",
+      "targets": [
+        ["id=fe27658", "id"],
+        ["name=firstName", "name"],
+        ["css=#fe27658", "css:finder"],
+        ["xpath=//input[@id='fe27658']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement0']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "b9274795-5a5b-4518-877f-e24970962746",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27659",
+      "targets": [
+        ["id=fe27659", "id"],
+        ["name=lastName", "name"],
+        ["css=#fe27659", "css:finder"],
+        ["xpath=//input[@id='fe27659']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement1']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "6709cdbf-0ee3-482e-aee1-a056c6c4b9d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27660",
+      "targets": [
+        ["id=fe27660", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#fe27660", "css:finder"],
+        ["xpath=//input[@id='fe27660']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement2']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "0000.ps-ryder-us-scs-001-step-001.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "fec28569-9136-4617-942f-2bfd0ff44137",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27962",
+      "targets": [
+        ["id=fe27962", "id"],
+        ["name=sCSCompany1", "name"],
+        ["css=#fe27962", "css:finder"],
+        ["xpath=//input[@id='fe27962']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement4']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "2aa6edb0-cc61-4cba-a54c-1c37b273fcd1",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27661",
+      "targets": [
+        ["id=fe27661", "id"],
+        ["name=title", "name"],
+        ["css=#fe27661", "css:finder"],
+        ["xpath=//input[@id='fe27661']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement3']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "1370a1b8-2bc9-41ef-96bc-cff2f1154c76",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27663",
+      "targets": [
+        ["id=fe27663", "id"],
+        ["name=busPhone", "name"],
+        ["css=#fe27663", "css:finder"],
+        ["xpath=//input[@id='fe27663']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement5']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "e7e29ebb-5731-49f2-8a51-4d925691a553",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27664",
+      "targets": [
+        ["id=fe27664", "id"],
+        ["name=zipPostal", "name"],
+        ["css=#fe27664", "css:finder"],
+        ["xpath=//input[@id='fe27664']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement6']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "37b058f5-3b6f-4319-96dd-077c4bbc916a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-selected",
+      "targets": [
+        ["css=.select-selected", "css:finder"],
+        ["xpath=//div[@id='formElement7']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81b85b3-2222-48a1-8872-0893daacf8b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-items > div:nth-child(1)",
+      "targets": [
+        ["css=.select-items > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='formElement7']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ebd812b-37e9-459a-b9f9-96407784ea76",
+      "comment": "",
+      "command": "//select",
+      "target": "css=.select-selected",
+      "targets": [],
+      "value": "label=Within 6 Months"
+    }, {
+      "id": "0c9c0274-d951-46c2-b0ec-263d10417aad",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27679",
+      "targets": [
+        ["id=fe27679", "id"],
+        ["css=#fe27679", "css:finder"],
+        ["xpath=//input[@id='fe27679']", "xpath:attributes"],
+        ["xpath=//form[@id='form1853']/div/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5cb054e-4e3c-4741-8472-6a1a7ac27c46",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Array.from(document.querySelectorAll('a[target=\"_blank\"]')).forEach(link => link.removeAttribute('target'));",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3965c0e7-eacd-4208-9d0f-aa4837346882",
+      "comment": "Open Eloqua",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#my_eloqua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "958cadc5-d468-4929-b698-b6d4157eab58",
+      "comment": "2021_US_ELQ_SCS_DTS_Form",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#forms&id=1853",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c008588a-b944-43a2-8112-a88a6b5c81a6",
+      "comment": "Open Salesforce",
+      "command": "executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/page/home\");",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7ceea3ea-ad00-440a-9cc7-466d73f2dbb7",
+    "name": "PS-RYDER-US-SCS-002",
+    "commands": [{
+      "id": "44299052-97f8-42a3-bc0d-01e54f0ea903",
+      "comment": "",
+      "command": "open",
+      "target": "https://campaigns.ryder.com/SCS-ContactUs-Microsite?source=psearch&utm_source=google&utm_medium=cpc&utm_campaign=2021_SCS_Paid_Search_Non-Brand_Logistics_Ever_Better_AH_Google_LeadGen&utm_content=C&utm_term=ryderlogistics",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8c981cc-6124-4ca6-87d8-a327aa222f27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SCSButton-SpeaktoanExpert-Hero",
+      "targets": [
+        ["css=.SCSButton-SpeaktoanExpert-Hero", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57624a87-dbae-4816-9b7e-63fbb7edee1f",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27658",
+      "targets": [
+        ["id=fe27658", "id"],
+        ["name=firstName", "name"],
+        ["css=#fe27658", "css:finder"],
+        ["xpath=//input[@id='fe27658']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement0']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "1a7c4d6c-7806-4428-8e83-33f13963ce63",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27659",
+      "targets": [
+        ["id=fe27659", "id"],
+        ["name=lastName", "name"],
+        ["css=#fe27659", "css:finder"],
+        ["xpath=//input[@id='fe27659']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement1']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "ca89b5d7-3dde-4c69-b9b8-2e5ceb14bfe5",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27660",
+      "targets": [
+        ["id=fe27660", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#fe27660", "css:finder"],
+        ["xpath=//input[@id='fe27660']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement2']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "0000.ps-ryder-us-scs-001-step-001.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "2693c28c-14cc-40c3-873e-f2efd5e3aeca",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27962",
+      "targets": [
+        ["id=fe27962", "id"],
+        ["name=sCSCompany1", "name"],
+        ["css=#fe27962", "css:finder"],
+        ["xpath=//input[@id='fe27962']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement4']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "3eca1876-de21-48cb-85d3-ba8a8d77afe9",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27661",
+      "targets": [
+        ["id=fe27661", "id"],
+        ["name=title", "name"],
+        ["css=#fe27661", "css:finder"],
+        ["xpath=//input[@id='fe27661']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement3']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "20b4030b-6510-4c4e-9ae3-672cde629387",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27663",
+      "targets": [
+        ["id=fe27663", "id"],
+        ["name=busPhone", "name"],
+        ["css=#fe27663", "css:finder"],
+        ["xpath=//input[@id='fe27663']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement5']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "266cf217-86d0-422b-9d81-0d8c920b17ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27664",
+      "targets": [
+        ["id=fe27664", "id"],
+        ["name=zipPostal", "name"],
+        ["css=#fe27664", "css:finder"],
+        ["xpath=//input[@id='fe27664']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement6']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "365c5fd6-cef1-4acf-861f-dad97262a26e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-selected",
+      "targets": [
+        ["css=.select-selected", "css:finder"],
+        ["xpath=//div[@id='formElement7']/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be821e0b-e43e-4f44-85df-4afc1d1784cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-items > div:nth-child(1)",
+      "targets": [
+        ["css=.select-items > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='formElement7']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bec46d93-f1d1-49ba-99a1-238ba105e520",
+      "comment": "",
+      "command": "//select",
+      "target": "css=.select-selected",
+      "targets": [],
+      "value": "label=Within 6 Months"
+    }, {
+      "id": "e26c8d0e-1b9f-4cb8-b264-539885ca02ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27679",
+      "targets": [
+        ["id=fe27679", "id"],
+        ["css=#fe27679", "css:finder"],
+        ["xpath=//input[@id='fe27679']", "xpath:attributes"],
+        ["xpath=//form[@id='form1853']/div/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce661b6c-017e-4b0f-abd1-1b1830a40f89",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Array.from(document.querySelectorAll('a[target=\"_blank\"]')).forEach(link => link.removeAttribute('target'));",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cef043c3-193a-4f75-b8c4-ea215efe59f2",
+      "comment": "Open Eloqua",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#my_eloqua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62824d41-e7ed-44d9-aff9-74bb5694f53b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return setTimeout(function() {}, 10);",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1135c2d-934b-4228-b81b-dce399353200",
+      "comment": "2021_US_ELQ_SCS_DTS_Form",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#forms&id=1853",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9cc0069-1519-4eed-bfdf-42c061c23929",
+      "comment": "Open Salesforce",
+      "command": "executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/page/home\");",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4a9604b6-16ba-41f2-b9a4-b55044fb9a6c",
+    "name": "PS-UVS-CA-001",
+    "commands": [{
+      "id": "1f9dc1c9-80aa-40e5-8628-eb5cdf1a5d16",
+      "comment": "2021 Canada UVS Paid Search CANADA USED Trucks LH GoogleBing LeadGen",
+      "command": "open",
+      "target": "https://campaigns.ryder.com/LP=2134?source=psearch&sfid=7010d000000ibi5&utm_source=google&utm_medium=cpc&utm_term=usedtrucks&utm_content=usedtrucks&utm_campaign=2021_Canada_UVS_Paid_Search_CANADA_USED_Trucks_LH_GoogleBing_LeadGen",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39933731-dd42-44ba-a852-0c0f743ad32e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hvr-pulse",
+      "targets": [
+        ["css=.hvr-pulse", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "612f440e-1d9e-4d96-a3f9-6cadade8f408",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27702",
+      "targets": [
+        ["id=fe27702", "id"],
+        ["name=firstName", "name"],
+        ["css=#fe27702", "css:finder"],
+        ["xpath=//input[@id='fe27702']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement0']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "da441973-3017-4ddd-bf44-b58532be5bef",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27703",
+      "targets": [
+        ["id=fe27703", "id"],
+        ["name=lastName", "name"],
+        ["css=#fe27703", "css:finder"],
+        ["xpath=//input[@id='fe27703']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement1']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "97878a04-53bd-4e69-bda2-8c832871fd84",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27704",
+      "targets": [
+        ["id=fe27704", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#fe27704", "css:finder"],
+        ["xpath=//input[@id='fe27704']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement2']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "0000.ps-uvs-ca-001-step-001.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "3d745ca6-411f-431d-8eb5-45a8355932c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27706",
+      "targets": [
+        ["id=fe27706", "id"],
+        ["name=company", "name"],
+        ["css=#fe27706", "css:finder"],
+        ["xpath=//input[@id='fe27706']", "xpath:attributes"],
+        ["xpath=(//div[@id='formElement0']/div[2]/div/div/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "3f3b3146-096f-4900-8365-a4a6b495581f",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27705",
+      "targets": [
+        ["id=fe27705", "id"],
+        ["name=title", "name"],
+        ["css=#fe27705", "css:finder"],
+        ["xpath=//input[@id='fe27705']", "xpath:attributes"],
+        ["xpath=(//div[@id='formElement1']/div[2]/div/div/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "0ef17d30-6a88-4e32-8068-5e16bdcb9963",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27707",
+      "targets": [
+        ["id=fe27707", "id"],
+        ["name=busPhone", "name"],
+        ["css=#fe27707", "css:finder"],
+        ["xpath=//input[@id='fe27707']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement4']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "0161467e-54dc-4bb7-9a29-f35b5a56c90a",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27708",
+      "targets": [
+        ["id=fe27708", "id"],
+        ["name=zipPostal", "name"],
+        ["css=#fe27708", "css:finder"],
+        ["xpath=//input[@id='fe27708']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement5']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "e592bccc-bfd2-4a21-bf6c-3fb1d6737d20",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27709",
+      "targets": [
+        ["id=fe27709", "id"],
+        ["name=DecisionTime", "name"],
+        ["css=#fe27709", "css:finder"],
+        ["xpath=//select[@id='fe27709']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement11']/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32e6e3b1-bfc7-4cb3-8c37-b547f62ef783",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27709",
+      "targets": [
+        ["id=fe27709", "id"],
+        ["name=DecisionTime", "name"],
+        ["css=#fe27709", "css:finder"],
+        ["xpath=//select[@id='fe27709']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement11']/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44c302b5-3e20-4429-b14e-ee5b80513ffe",
+      "comment": "",
+      "command": "select",
+      "target": "id=fe27709",
+      "targets": [],
+      "value": "label=3+ Months"
+    }, {
+      "id": "73a77b54-3863-418c-9fe8-f96d89fdae5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27726",
+      "targets": [
+        ["id=fe27726", "id"],
+        ["name=CA_OptIn", "name"],
+        ["css=#fe27726", "css:finder"],
+        ["xpath=//input[@id='fe27726']", "xpath:attributes"],
+        ["xpath=//form[@id='form1855']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7d5a5e2-f27e-47c5-8234-d398d9ae423e",
+      "comment": "Open Eloqua",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#my_eloqua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01675675-af85-4f57-9b3c-36559ffe4964",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return setTimeout(function() {}, 10);",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9058954f-67ca-43cd-b5d3-9431366a31f5",
+      "comment": "2021_US_ELQ_SCS_DTS_Form",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#forms&id=1853",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4210212-0292-4847-bde8-19e16cd1ee4f",
+      "comment": "Open Salesforce",
+      "command": "executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/page/home\");",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a8a9b2a0-44f7-4bc6-bcea-3866f8d68713",
+    "name": "PS-UVS-CA-002",
+    "commands": [{
+      "id": "80fc476b-21f4-499e-8656-4be17bd296a4",
+      "comment": "",
+      "command": "open",
+      "target": "https://campaigns.ryder.com/LP=2134?source=psearch&sfid=7010d000000ibi5&utm_source=google&utm_medium=cpc&utm_term=usedtrucks&utm_content=usedtrucks&utm_campaign=2021_Canada_UVS_Paid_Search_CANADA_USED_Trucks_LH_GoogleBing_LeadGen",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f44e9e8b-ed3f-4e01-be74-b2718c6cf992",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hvr-pulse",
+      "targets": [
+        ["css=.hvr-pulse", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30cb58f5-b23e-4983-998f-101fdf4bde6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27702",
+      "targets": [
+        ["id=fe27702", "id"],
+        ["name=firstName", "name"],
+        ["css=#fe27702", "css:finder"],
+        ["xpath=//input[@id='fe27702']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement0']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Brian"
+    }, {
+      "id": "412db4dc-ad48-4bad-8ae3-c890787b29df",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27703",
+      "targets": [
+        ["id=fe27703", "id"],
+        ["name=lastName", "name"],
+        ["css=#fe27703", "css:finder"],
+        ["xpath=//input[@id='fe27703']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement1']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Savage"
+    }, {
+      "id": "eb20c770-503d-4912-963b-df4046d7ef84",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27704",
+      "targets": [
+        ["id=fe27704", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#fe27704", "css:finder"],
+        ["xpath=//input[@id='fe27704']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement2']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "0000.ps-uvs-ca-002-step-001.tester.brian_savage@ryder.testing.com"
+    }, {
+      "id": "01a9493e-91eb-4d79-bff6-427d5eeec022",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27706",
+      "targets": [
+        ["id=fe27706", "id"],
+        ["name=company", "name"],
+        ["css=#fe27706", "css:finder"],
+        ["xpath=//input[@id='fe27706']", "xpath:attributes"],
+        ["xpath=(//div[@id='formElement0']/div[2]/div/div/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Ryder"
+    }, {
+      "id": "17dede0d-ed82-46b6-8776-a1ecc626a537",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27705",
+      "targets": [
+        ["id=fe27705", "id"],
+        ["name=title", "name"],
+        ["css=#fe27705", "css:finder"],
+        ["xpath=//input[@id='fe27705']", "xpath:attributes"],
+        ["xpath=(//div[@id='formElement1']/div[2]/div/div/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Product Owner"
+    }, {
+      "id": "30e86aa3-4335-49b5-ae77-5e99027984fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27707",
+      "targets": [
+        ["id=fe27707", "id"],
+        ["name=busPhone", "name"],
+        ["css=#fe27707", "css:finder"],
+        ["xpath=//input[@id='fe27707']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement4']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "5558966554"
+    }, {
+      "id": "27099adf-f46e-4ff9-ba5c-1ce23eb1dbd3",
+      "comment": "",
+      "command": "type",
+      "target": "id=fe27708",
+      "targets": [
+        ["id=fe27708", "id"],
+        ["name=zipPostal", "name"],
+        ["css=#fe27708", "css:finder"],
+        ["xpath=//input[@id='fe27708']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement5']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "19563"
+    }, {
+      "id": "1decba97-2820-4d68-879f-b5379923cd0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27709",
+      "targets": [
+        ["id=fe27709", "id"],
+        ["name=DecisionTime", "name"],
+        ["css=#fe27709", "css:finder"],
+        ["xpath=//select[@id='fe27709']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement11']/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c18a6513-ebfa-4179-9b55-75b46483adc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27709",
+      "targets": [
+        ["id=fe27709", "id"],
+        ["name=DecisionTime", "name"],
+        ["css=#fe27709", "css:finder"],
+        ["xpath=//select[@id='fe27709']", "xpath:attributes"],
+        ["xpath=//div[@id='formElement11']/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "687a862e-2452-402c-a784-0c5449e8b097",
+      "comment": "",
+      "command": "select",
+      "target": "id=fe27709",
+      "targets": [],
+      "value": "label=3+ Months"
+    }, {
+      "id": "756cf52d-bfa9-4052-9bef-eaf03109f226",
+      "comment": "",
+      "command": "click",
+      "target": "id=fe27726",
+      "targets": [
+        ["id=fe27726", "id"],
+        ["name=CA_OptIn", "name"],
+        ["css=#fe27726", "css:finder"],
+        ["xpath=//input[@id='fe27726']", "xpath:attributes"],
+        ["xpath=//form[@id='form1855']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccf95fbc-1c79-4a29-a487-27abc28f5c60",
+      "comment": "Open Eloqua",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#my_eloqua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcdcb48e-c265-4937-ab6d-ae7feedb4406",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return setTimeout(function() {}, 10);",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78771e9e-8d81-4173-b325-5c8cefff6b5c",
+      "comment": "2021_US_ELQ_SCS_DTS_Form",
+      "command": "open",
+      "target": "https://secure.p01.eloqua.com/Main.aspx#forms&id=1853",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "472c8cbe-8931-4476-b553-4d9242ba3d5c",
+      "comment": "Open Salesforce",
+      "command": "executeScript",
+      "target": "window.open(\"https://ryderfms.lightning.force.com/lightning/page/home\");",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "91906296-9e56-4492-b350-be2f83cc1715",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "481a2b5b-e691-4275-8154-b87d63e64bee",
+    "name": "UVS-US-PAID-SEARCH",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3a1b2f85-0b06-458d-8911-349469b878a8", "df11a6e6-a0ae-4739-8b79-2dddaf1a41be", "7d96c6c1-e96e-4a93-9bb7-796962b430f7", "179addb9-6068-4171-8755-0c4bb8b947b6"]
+  }],
+  "urls": ["https://ryder.com/used-trucks?source=psearch&sfid=7010d000000xstAAAQ&utm_source=google&utm_medium=cpc&utm_campaign=2021_UVS_Paid_Search_Brand_NO_PMT_59_days_AH_GoogleBing_LeadGen&utm_content=usedtrucks&utm_term=C", "https://campaigns.ryder.com/UVS-Promo-59Day?source=psearch&sfid=7010d000000xstAAAQ&utm_source=google&utm_medium=cpc&utm_campaign=2021_UVS_Paid_Search_Brand_NO_PMT_59_days_AH_GoogleBing_LeadGen&utm_content=usedtrucks&utm_term=C", "https://campaigns.ryder.com/SCS-ContactUs-Microsite?source=psearch&utm_source=google&utm_medium=cpc&utm_campaign=2021_SCS_Paid_Search_Non-Brand_Logistics_Ever_Better_AH_Google_LeadGen&utm_content=C&utm_term=ryderlogistics", "https://ryder.com/"],
+  "plugins": []
+}
